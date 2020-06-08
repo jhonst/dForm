@@ -1,0 +1,14 @@
+<p>
+  <ngb-alert [dismissible]="false">
+    <strong>¡Formularos!</strong> Ejemplo de formulario dinamico.
+  </ngb-alert>
+</p>
+
+<div class="container">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <formly-form [form]="form" [fields]="fields" [model]="model"></formly-form>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<router-outlet></router-outlet>

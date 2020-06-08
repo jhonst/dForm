@@ -1,0 +1,28 @@
+
+    {
+      key: 'nombre',
+      type: 'input',
+      templateOptions: {
+        label: 'Nombre',
+        placeholder: 'Ingresa el nombre',
+      }
+    },
+    {
+      key: 'cedula',
+      type: 'input',
+      templateOptions: {
+              type: 'number',
+        label: 'Cedula',
+        placeholder: 'Ingresa el numero de cedula',
+      }
+    },
+    {
+      key: 'chip',
+      type: 'input',
+      templateOptions: {
+              type: 'number',
+        label: 'Chip',
+        placeholder: 'Ingresa el numero del chip de tu mascota',
+      }
+    },
+  ]
